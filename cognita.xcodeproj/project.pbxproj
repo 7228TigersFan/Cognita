@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12B6D43A6B2EFBA7197F3369 /* Pods_cognitaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65E081470AB75E7002078C /* Pods_cognitaTests.framework */; };
+		891DB72EB6B492840748499E /* Pods_cognita.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AF68FE6A3CA038007A984E /* Pods_cognita.framework */; };
+		A65AFDFCAF887B52BB978935 /* Pods_cognitaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D810AB1DC9A930095CBD27E /* Pods_cognitaUITests.framework */; };
+		AB1EC6E7231E51D40063E693 /* ClubController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC6E6231E51D40063E693 /* ClubController.swift */; };
+		AB1EC6ED231E52850063E693 /* FeedbackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC6EC231E52850063E693 /* FeedbackController.swift */; };
+		AB1EC6EF231E52AC0063E693 /* LateBusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC6EE231E52AC0063E693 /* LateBusController.swift */; };
+		AB1EC6F1231E54470063E693 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC6F0231E54470063E693 /* ProfileController.swift */; };
+		AB1EC6F3231E60260063E693 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC6F2231E60260063E693 /* MapViewController.swift */; };
+		AB1EC6F5231E68A60063E693 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC6F4231E68A60063E693 /* HomePageController.swift */; };
+		AB4027F82320574F007D8225 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4027F72320574F007D8225 /* GraphView.swift */; };
+		AB475039231EACAD00D1EAC2 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB475038231EACAD00D1EAC2 /* main.storyboard */; };
+		AB4BC5DC231DBB9700CD66F2 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4BC5DB231DBB9700CD66F2 /* ContainerController.swift */; };
+		AB4BC5DE231DBBD300CD66F2 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4BC5DD231DBBD300CD66F2 /* MenuController.swift */; };
+		AB4BC5E0231DBD3A00CD66F2 /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4BC5DF231DBD3A00CD66F2 /* MenuOptionCell.swift */; };
+		AB4BC5E2231DBD5F00CD66F2 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4BC5E1231DBD5F00CD66F2 /* MenuOption.swift */; };
+		AB4BC5E4231DBD6700CD66F2 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4BC5E3231DBD6600CD66F2 /* Protocols.swift */; };
+		AB4BC5E6231DBD8900CD66F2 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4BC5E5231DBD8900CD66F2 /* SettingsController.swift */; };
+		AB50A8EF231D4F1900630B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB50A8EE231D4F1900630B32 /* AppDelegate.swift */; };
+		AB50A8F4231D4F1900630B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB50A8F2231D4F1900630B32 /* Main.storyboard */; };
+		AB50A8F6231D4F1A00630B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB50A8F5231D4F1A00630B32 /* Assets.xcassets */; };
+		AB50A8F9231D4F1A00630B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB50A8F7231D4F1A00630B32 /* LaunchScreen.storyboard */; };
+		AB50A904231D4F1A00630B32 /* cognitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB50A903231D4F1A00630B32 /* cognitaTests.swift */; };
+		AB50A90F231D4F1A00630B32 /* cognitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB50A90E231D4F1A00630B32 /* cognitaUITests.swift */; };
+		AB50A91D231D4FC900630B32 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB50A91C231D4FC900630B32 /* GoogleService-Info.plist */; };
+		AB7568EC231D91E10090FF04 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB7568EB231D91E10090FF04 /* logo.jpg */; };
+		ABFBB04F231D513E006B26CE /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFBB04E231D513E006B26CE /* LoginController.swift */; };
+		ABFBB051231D5148006B26CE /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFBB050231D5148006B26CE /* SignUpController.swift */; };
+		ABFBB053231D5150006B26CE /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFBB052231D5150006B26CE /* HomeController.swift */; };
+		ABFBB055231D515F006B26CE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFBB054231D515F006B26CE /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB50A900231D4F1A00630B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB50A8E3231D4F1900630B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB50A8EA231D4F1900630B32;
+			remoteInfo = cognita;
+		};
+		AB50A90B231D4F1A00630B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB50A8E3231D4F1900630B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB50A8EA231D4F1900630B32;
+			remoteInfo = cognita;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		325F290781EF9CC9EB7F92FF /* Pods-cognitaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cognitaUITests.release.xcconfig"; path = "Target Support Files/Pods-cognitaUITests/Pods-cognitaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5D810AB1DC9A930095CBD27E /* Pods_cognitaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cognitaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CAA1003E78CDCAE604ED28 /* Pods-cognitaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cognitaTests.release.xcconfig"; path = "Target Support Files/Pods-cognitaTests/Pods-cognitaTests.release.xcconfig"; sourceTree = "<group>"; };
+		7CF74FEBC63800E57A15BFEB /* Pods-cognita.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cognita.release.xcconfig"; path = "Target Support Files/Pods-cognita/Pods-cognita.release.xcconfig"; sourceTree = "<group>"; };
+		A1AF68FE6A3CA038007A984E /* Pods_cognita.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cognita.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1EC6E6231E51D40063E693 /* ClubController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubController.swift; sourceTree = "<group>"; };
+		AB1EC6EC231E52850063E693 /* FeedbackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackController.swift; sourceTree = "<group>"; };
+		AB1EC6EE231E52AC0063E693 /* LateBusController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LateBusController.swift; sourceTree = "<group>"; };
+		AB1EC6F0231E54470063E693 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		AB1EC6F2231E60260063E693 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		AB1EC6F4231E68A60063E693 /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
+		AB4027F72320574F007D8225 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphView.swift; path = ../../../CoreGraphicsGraph/Graph/GraphView.swift; sourceTree = "<group>"; };
+		AB475038231EACAD00D1EAC2 /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		AB4BC5DB231DBB9700CD66F2 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		AB4BC5DD231DBBD300CD66F2 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		AB4BC5DF231DBD3A00CD66F2 /* MenuOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuOptionCell.swift; path = ../../../SideMenu/SideMenuTutorial/View/MenuOptionCell.swift; sourceTree = "<group>"; };
+		AB4BC5E1231DBD5F00CD66F2 /* MenuOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuOption.swift; path = ../../../SideMenu/SideMenuTutorial/Model/MenuOption.swift; sourceTree = "<group>"; };
+		AB4BC5E3231DBD6600CD66F2 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = ../../../SideMenu/SideMenuTutorial/Utils/Protocols.swift; sourceTree = "<group>"; };
+		AB4BC5E5231DBD8900CD66F2 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsController.swift; path = ../../../SideMenu/SideMenuTutorial/Controller/SettingsController.swift; sourceTree = "<group>"; };
+		AB50A8EB231D4F1900630B32 /* cognita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cognita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB50A8EE231D4F1900630B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB50A8F3231D4F1900630B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB50A8F5231D4F1A00630B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB50A8F8231D4F1A00630B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB50A8FA231D4F1A00630B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB50A8FF231D4F1A00630B32 /* cognitaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cognitaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB50A903231D4F1A00630B32 /* cognitaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cognitaTests.swift; sourceTree = "<group>"; };
+		AB50A905231D4F1A00630B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB50A90A231D4F1A00630B32 /* cognitaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cognitaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB50A90E231D4F1A00630B32 /* cognitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cognitaUITests.swift; sourceTree = "<group>"; };
+		AB50A910231D4F1A00630B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB50A91C231D4FC900630B32 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AB7568EB231D91E10090FF04 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpg; path = ../../../Downloads/logo.jpg; sourceTree = "<group>"; };
+		ABFBB04E231D513E006B26CE /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = "../../../Downloads/FirebaseAuth-master 2/CreateFirebaseUser/LoginController.swift"; sourceTree = "<group>"; };
+		ABFBB050231D5148006B26CE /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpController.swift; path = "../../../Downloads/FirebaseAuth-master 2/CreateFirebaseUser/SignUpController.swift"; sourceTree = "<group>"; };
+		ABFBB052231D5150006B26CE /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeController.swift; path = "../../../Downloads/FirebaseAuth-master 2/CreateFirebaseUser/HomeController.swift"; sourceTree = "<group>"; };
+		ABFBB054231D515F006B26CE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "../../../Downloads/FirebaseAuth-master 2/CreateFirebaseUser/Extensions.swift"; sourceTree = "<group>"; };
+		B31AAF18C2DDD5AC4823AE28 /* Pods-cognitaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cognitaTests.debug.xcconfig"; path = "Target Support Files/Pods-cognitaTests/Pods-cognitaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7DBAF331EB173E7F734A334 /* Pods-cognita.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cognita.debug.xcconfig"; path = "Target Support Files/Pods-cognita/Pods-cognita.debug.xcconfig"; sourceTree = "<group>"; };
+		C827A12DA66F773D8F41A1A9 /* Pods-cognitaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cognitaUITests.debug.xcconfig"; path = "Target Support Files/Pods-cognitaUITests/Pods-cognitaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE65E081470AB75E7002078C /* Pods_cognitaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cognitaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB50A8E8231D4F1900630B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891DB72EB6B492840748499E /* Pods_cognita.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB50A8FC231D4F1A00630B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B6D43A6B2EFBA7197F3369 /* Pods_cognitaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB50A907231D4F1A00630B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65AFDFCAF887B52BB978935 /* Pods_cognitaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3258A3465244D1BC2AFA1640 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1AF68FE6A3CA038007A984E /* Pods_cognita.framework */,
+				CE65E081470AB75E7002078C /* Pods_cognitaTests.framework */,
+				5D810AB1DC9A930095CBD27E /* Pods_cognitaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D65BD7F4BF7EA0BDB2F8484 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7DBAF331EB173E7F734A334 /* Pods-cognita.debug.xcconfig */,
+				7CF74FEBC63800E57A15BFEB /* Pods-cognita.release.xcconfig */,
+				B31AAF18C2DDD5AC4823AE28 /* Pods-cognitaTests.debug.xcconfig */,
+				60CAA1003E78CDCAE604ED28 /* Pods-cognitaTests.release.xcconfig */,
+				C827A12DA66F773D8F41A1A9 /* Pods-cognitaUITests.debug.xcconfig */,
+				325F290781EF9CC9EB7F92FF /* Pods-cognitaUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB50A8E2231D4F1900630B32 = {
+			isa = PBXGroup;
+			children = (
+				AB50A8ED231D4F1900630B32 /* cognita */,
+				AB50A902231D4F1A00630B32 /* cognitaTests */,
+				AB50A90D231D4F1A00630B32 /* cognitaUITests */,
+				AB50A8EC231D4F1900630B32 /* Products */,
+				7D65BD7F4BF7EA0BDB2F8484 /* Pods */,
+				3258A3465244D1BC2AFA1640 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB50A8EC231D4F1900630B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB50A8EB231D4F1900630B32 /* cognita.app */,
+				AB50A8FF231D4F1A00630B32 /* cognitaTests.xctest */,
+				AB50A90A231D4F1A00630B32 /* cognitaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB50A8ED231D4F1900630B32 /* cognita */ = {
+			isa = PBXGroup;
+			children = (
+				AB4BC5E3231DBD6600CD66F2 /* Protocols.swift */,
+				AB4BC5E1231DBD5F00CD66F2 /* MenuOption.swift */,
+				AB4BC5DF231DBD3A00CD66F2 /* MenuOptionCell.swift */,
+				ABFBB052231D5150006B26CE /* HomeController.swift */,
+				AB4027F72320574F007D8225 /* GraphView.swift */,
+				AB1EC6F0231E54470063E693 /* ProfileController.swift */,
+				AB1EC6E6231E51D40063E693 /* ClubController.swift */,
+				ABFBB04E231D513E006B26CE /* LoginController.swift */,
+				AB1EC6EC231E52850063E693 /* FeedbackController.swift */,
+				AB1EC6EE231E52AC0063E693 /* LateBusController.swift */,
+				ABFBB050231D5148006B26CE /* SignUpController.swift */,
+				AB50A8EE231D4F1900630B32 /* AppDelegate.swift */,
+				ABFBB054231D515F006B26CE /* Extensions.swift */,
+				AB50A8F2231D4F1900630B32 /* Main.storyboard */,
+				AB4BC5E5231DBD8900CD66F2 /* SettingsController.swift */,
+				AB50A8F5231D4F1A00630B32 /* Assets.xcassets */,
+				AB50A8F7231D4F1A00630B32 /* LaunchScreen.storyboard */,
+				AB50A8FA231D4F1A00630B32 /* Info.plist */,
+				AB7568EB231D91E10090FF04 /* logo.jpg */,
+				AB50A91C231D4FC900630B32 /* GoogleService-Info.plist */,
+				AB4BC5DB231DBB9700CD66F2 /* ContainerController.swift */,
+				AB4BC5DD231DBBD300CD66F2 /* MenuController.swift */,
+				AB1EC6F2231E60260063E693 /* MapViewController.swift */,
+				AB1EC6F4231E68A60063E693 /* HomePageController.swift */,
+				AB475038231EACAD00D1EAC2 /* main.storyboard */,
+			);
+			path = cognita;
+			sourceTree = "<group>";
+		};
+		AB50A902231D4F1A00630B32 /* cognitaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB50A903231D4F1A00630B32 /* cognitaTests.swift */,
+				AB50A905231D4F1A00630B32 /* Info.plist */,
+			);
+			path = cognitaTests;
+			sourceTree = "<group>";
+		};
+		AB50A90D231D4F1A00630B32 /* cognitaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB50A90E231D4F1A00630B32 /* cognitaUITests.swift */,
+				AB50A910231D4F1A00630B32 /* Info.plist */,
+			);
+			path = cognitaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB50A8EA231D4F1900630B32 /* cognita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB50A913231D4F1A00630B32 /* Build configuration list for PBXNativeTarget "cognita" */;
+			buildPhases = (
+				4D169F5D8762EA4FA9B05ED5 /* [CP] Check Pods Manifest.lock */,
+				AB50A8E7231D4F1900630B32 /* Sources */,
+				AB50A8E8231D4F1900630B32 /* Frameworks */,
+				AB50A8E9231D4F1900630B32 /* Resources */,
+				EBA5C1E0AF5E82FB8700A580 /* [CP] Copy Pods Resources */,
+				44F99384B465D10B7124E811 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cognita;
+			productName = cognita;
+			productReference = AB50A8EB231D4F1900630B32 /* cognita.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB50A8FE231D4F1A00630B32 /* cognitaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB50A916231D4F1A00630B32 /* Build configuration list for PBXNativeTarget "cognitaTests" */;
+			buildPhases = (
+				0E71F2471F1297C727E10818 /* [CP] Check Pods Manifest.lock */,
+				AB50A8FB231D4F1A00630B32 /* Sources */,
+				AB50A8FC231D4F1A00630B32 /* Frameworks */,
+				AB50A8FD231D4F1A00630B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB50A901231D4F1A00630B32 /* PBXTargetDependency */,
+			);
+			name = cognitaTests;
+			productName = cognitaTests;
+			productReference = AB50A8FF231D4F1A00630B32 /* cognitaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB50A909231D4F1A00630B32 /* cognitaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB50A919231D4F1A00630B32 /* Build configuration list for PBXNativeTarget "cognitaUITests" */;
+			buildPhases = (
+				5F0DEE34C0789BAF7428B736 /* [CP] Check Pods Manifest.lock */,
+				AB50A906231D4F1A00630B32 /* Sources */,
+				AB50A907231D4F1A00630B32 /* Frameworks */,
+				AB50A908231D4F1A00630B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB50A90C231D4F1A00630B32 /* PBXTargetDependency */,
+			);
+			name = cognitaUITests;
+			productName = cognitaUITests;
+			productReference = AB50A90A231D4F1A00630B32 /* cognitaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB50A8E3231D4F1900630B32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Hüseyin Yağız DEVRE";
+				TargetAttributes = {
+					AB50A8EA231D4F1900630B32 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					AB50A8FE231D4F1A00630B32 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = AB50A8EA231D4F1900630B32;
+					};
+					AB50A909231D4F1A00630B32 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = AB50A8EA231D4F1900630B32;
+					};
+				};
+			};
+			buildConfigurationList = AB50A8E6231D4F1900630B32 /* Build configuration list for PBXProject "cognita" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB50A8E2231D4F1900630B32;
+			productRefGroup = AB50A8EC231D4F1900630B32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB50A8EA231D4F1900630B32 /* cognita */,
+				AB50A8FE231D4F1A00630B32 /* cognitaTests */,
+				AB50A909231D4F1A00630B32 /* cognitaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB50A8E9231D4F1900630B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB50A8F9231D4F1A00630B32 /* LaunchScreen.storyboard in Resources */,
+				AB475039231EACAD00D1EAC2 /* main.storyboard in Resources */,
+				AB7568EC231D91E10090FF04 /* logo.jpg in Resources */,
+				AB50A91D231D4FC900630B32 /* GoogleService-Info.plist in Resources */,
+				AB50A8F6231D4F1A00630B32 /* Assets.xcassets in Resources */,
+				AB50A8F4231D4F1900630B32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB50A8FD231D4F1A00630B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB50A908231D4F1A00630B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E71F2471F1297C727E10818 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cognitaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44F99384B465D10B7124E811 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cognita/Pods-cognita-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cognita/Pods-cognita-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cognita/Pods-cognita-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D169F5D8762EA4FA9B05ED5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cognita-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F0DEE34C0789BAF7428B736 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cognitaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBA5C1E0AF5E82FB8700A580 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cognita/Pods-cognita-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cognita/Pods-cognita-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cognita/Pods-cognita-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB50A8E7231D4F1900630B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1EC6ED231E52850063E693 /* FeedbackController.swift in Sources */,
+				AB4BC5E6231DBD8900CD66F2 /* SettingsController.swift in Sources */,
+				AB4BC5DE231DBBD300CD66F2 /* MenuController.swift in Sources */,
+				ABFBB055231D515F006B26CE /* Extensions.swift in Sources */,
+				AB4BC5E4231DBD6700CD66F2 /* Protocols.swift in Sources */,
+				AB1EC6F1231E54470063E693 /* ProfileController.swift in Sources */,
+				AB4BC5E2231DBD5F00CD66F2 /* MenuOption.swift in Sources */,
+				ABFBB04F231D513E006B26CE /* LoginController.swift in Sources */,
+				AB4BC5E0231DBD3A00CD66F2 /* MenuOptionCell.swift in Sources */,
+				AB50A8EF231D4F1900630B32 /* AppDelegate.swift in Sources */,
+				AB4BC5DC231DBB9700CD66F2 /* ContainerController.swift in Sources */,
+				AB4027F82320574F007D8225 /* GraphView.swift in Sources */,
+				AB1EC6EF231E52AC0063E693 /* LateBusController.swift in Sources */,
+				AB1EC6E7231E51D40063E693 /* ClubController.swift in Sources */,
+				ABFBB051231D5148006B26CE /* SignUpController.swift in Sources */,
+				ABFBB053231D5150006B26CE /* HomeController.swift in Sources */,
+				AB1EC6F5231E68A60063E693 /* HomePageController.swift in Sources */,
+				AB1EC6F3231E60260063E693 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB50A8FB231D4F1A00630B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB50A904231D4F1A00630B32 /* cognitaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB50A906231D4F1A00630B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB50A90F231D4F1A00630B32 /* cognitaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB50A901231D4F1A00630B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB50A8EA231D4F1900630B32 /* cognita */;
+			targetProxy = AB50A900231D4F1A00630B32 /* PBXContainerItemProxy */;
+		};
+		AB50A90C231D4F1A00630B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB50A8EA231D4F1900630B32 /* cognita */;
+			targetProxy = AB50A90B231D4F1A00630B32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB50A8F2231D4F1900630B32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB50A8F3231D4F1900630B32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB50A8F7231D4F1A00630B32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB50A8F8231D4F1A00630B32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB50A911231D4F1A00630B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB50A912231D4F1A00630B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB50A914231D4F1A00630B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7DBAF331EB173E7F734A334 /* Pods-cognita.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PZTD98P62;
+				INFOPLIST_FILE = cognita/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cevap.cognita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB50A915231D4F1A00630B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF74FEBC63800E57A15BFEB /* Pods-cognita.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PZTD98P62;
+				INFOPLIST_FILE = cognita/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cevap.cognita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB50A917231D4F1A00630B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31AAF18C2DDD5AC4823AE28 /* Pods-cognitaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cognitaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cevap.cognitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cognita.app/cognita";
+			};
+			name = Debug;
+		};
+		AB50A918231D4F1A00630B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60CAA1003E78CDCAE604ED28 /* Pods-cognitaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cognitaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cevap.cognitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cognita.app/cognita";
+			};
+			name = Release;
+		};
+		AB50A91A231D4F1A00630B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C827A12DA66F773D8F41A1A9 /* Pods-cognitaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cognitaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cevap.cognitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cognita;
+			};
+			name = Debug;
+		};
+		AB50A91B231D4F1A00630B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 325F290781EF9CC9EB7F92FF /* Pods-cognitaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cognitaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cevap.cognitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cognita;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB50A8E6231D4F1900630B32 /* Build configuration list for PBXProject "cognita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB50A911231D4F1A00630B32 /* Debug */,
+				AB50A912231D4F1A00630B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB50A913231D4F1A00630B32 /* Build configuration list for PBXNativeTarget "cognita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB50A914231D4F1A00630B32 /* Debug */,
+				AB50A915231D4F1A00630B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB50A916231D4F1A00630B32 /* Build configuration list for PBXNativeTarget "cognitaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB50A917231D4F1A00630B32 /* Debug */,
+				AB50A918231D4F1A00630B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB50A919231D4F1A00630B32 /* Build configuration list for PBXNativeTarget "cognitaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB50A91A231D4F1A00630B32 /* Debug */,
+				AB50A91B231D4F1A00630B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB50A8E3231D4F1900630B32 /* Project object */;
+}
